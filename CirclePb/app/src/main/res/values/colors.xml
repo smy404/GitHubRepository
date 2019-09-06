@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#999999</color>
+    <color name="colorGrey200">#eeeeee</color>
+    <color name="color_dark_light">#455A64</color>
+    <color name="color_light">#ECEFF1</color>
+
+    <color name="colorPrimary">#00b4aa</color>
+    <color name="colorPrimaryDark">#00978f</color>
+    <color name="colorAccent">#FF6A6E</color>
+
+
+    <color name="color_red">#FF5722</color>
+    <color name="color_orange">#FF9800</color>
+    <color name="color_yellow">#FFC107</color>
+    <color name="color_green">#3FB830</color>
+    <color name="color_blue">#00BAED</color>
+    <color name="color_dark">#263238</color>
+    <color name="color_blue_100">#c5cae9</color>
+    <color name="color_blue_200">#9fa8da</color>
+    <color name="color_blue_300">#7986cb</color>
+    <color name="color_blue_400">#5c6bc0</color>
+    <color name="color_blue_500">#3f51b5</color>
+    <color name="color_blue_600">#3949ab</color>
+    <color name="color_blue_700">#303f9f</color>
+    <color name="color_blue_800">#283593</color>
+
+
+
+    <color name="colordefault">#999999</color>
+    <color name="colorAccent1">#5bb5eb</color>
+    <color name="colorAccent2">#8bd07c</color>
+    <color name="colorAccent3">#e8dd5f</color>
+    <color name="colorAccent4">#e97e5a</color>
+    <color name="colorAccent5">#ea4646</color>
+
+
+    <color name="mainBlack">#242828</color>
+
+    <!--theme color-->
+    <color name="themeGray">#DEDEDE</color>
+    <!--basic color-->
+    <color name="mainBlack5B">#5b5b5b</color>
+    <color name="mainRed">#ff3955</color>
+    <color name="mainBlue">#4277fb</color>
+    <color name="mainWhite">#ffffff</color>
+    <color name="mainGrayF8">#f8f8f8</color>
+    <color name="mainGrayF0">#f0f0f0</color>
+    <color name="mainGrayC6">#c6c6c6</color>
+    <color name="mainGray88">#888888</color>
+
+    <!--font color-->
+    <color name="fontGray88">#888888</color>
+    <color name="fontGrayC6">#c6c6c6</color>
+    <color name="fontBlack">#242828</color>
+    <color name="fontRed">#ff3955</color>
+
+
+    <!---->
+    <color name="colorRed">#ff0112</color>
+    <color name="colorGray">#a4a2a2</color>
+    <color name="colorGreen">#05f449</color>
+    <color name="colorBlack">#000000</color>
+
+
+    <color name="error_view_retry">#651FFF</color>
+
+
+</resources>

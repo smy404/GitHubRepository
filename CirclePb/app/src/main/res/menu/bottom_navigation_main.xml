@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_hot"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="热映"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_seek"
+        android:icon="@drawable/ic_seek"
+        android:title="找片"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_vip"
+        android:icon="@drawable/home_vip"
+        android:title="Vip"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_crown"
+        android:icon="@drawable/home_crown"
+        android:title="皇冠"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mine"
+        android:icon="@drawable/ic_mine"
+        android:title="我的"
+        app:showAsAction="ifRoom" />
+</menu>

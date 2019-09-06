@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/mLeftIv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:srcCompat="@drawable/ic_back" />
+
+        <EditText
+            android:id="@+id/mKeywordEt"
+            style="@style/SearchHeaderEtStyle"
+            android:hint="搜索商品/品类" />
+
+        <TextView
+            android:id="@+id/mSearchTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textColor="@color/common_white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mNoDataTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="暂无历史记录" />
+
+    <LinearLayout
+        android:id="@+id/mDataView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_margin"
+            android:text="你最近的搜索历史" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mSearchHistoryRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mClearBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/corner_gray_white_bg"
+            android:padding="@dimen/common_padding"
+            android:text="清空历史搜索"
+            android:textColor="@color/colorPrimaryText" />
+    </LinearLayout>
+</LinearLayout>

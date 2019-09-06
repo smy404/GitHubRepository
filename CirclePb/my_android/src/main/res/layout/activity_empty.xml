@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.EmptyActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            app:counterMaxLength="5"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="true">
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入用户名"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <com.example.my_android.ui.main.LL
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="5"
+                app:hintAnimationEnabled="false"
+                app:hintEnabled="true">
+
+                <com.example.common.widget.ClearEditText
+                    android:id="@+id/et2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入用户名"
+                    android:imeOptions="actionNext"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </com.example.my_android.ui.main.LL>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click1"
+            android:text="校验" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

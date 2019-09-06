@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_1">
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+    <!--<com.example.myrepository.fragment.CircleProgress-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:hintTextAppearance="@style/TextInputAppTheme">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/sensitive_tiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_menu_send"
+            android:hint="敏感度11"
+            android:textSize="30sp" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#03A9F4"
+        android:orientation="vertical"
+        app:hintTextAppearance="@style/TextInputAppTheme2">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/sensitive_tiet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_menu_send"
+            android:hint="敏感度22"
+            android:textColorHint="#000"
+            android:textSize="10sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

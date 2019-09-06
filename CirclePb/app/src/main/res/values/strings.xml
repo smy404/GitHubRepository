@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">洋葱电影资讯</string>
+    <string name="app_name2">MyRepository</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sign">签到</string>
+    <string name="integral">积分</string>
+    <string name="Japanese_currency">日币</string>
+    <string name="friendliness">友好度</string>
+    <string name="prestige">威望</string>
+    <string name="edit">编辑</string>
+    <string name="interest_label">兴趣标签</string>
+
+    <string name="follow">关注</string>
+    <string name="edit_information">编辑资料</string>
+    <string name="fans">粉丝</string>
+    <string name="no_answer_get_first_answer">还没有人回答，抢一楼~</string>
+    <string name="answer">答</string>
+    <string name="no_more">没有更多了</string>
+    <string name="more_loading">更多加载中...</string>
+
+
+    <string name="description_define_in_xml"><![CDATA[这是使用定制Header和Footer的第二种方法-Xml中配置\n\n
+        在需要使用特别的Header或者特别配置的页面时候可以使用本方法\n\n
+        本方法的特点：\n
+        1.可以在Androd Studio中的预览窗口预览效果\n
+        2.优先级高于 【全局默认】但是低于 【JavaCode】\n\n
+        代码示例：\n
+        <com.scwang.smartrefresh.SmartRefreshLayout\n
+            \t\tandroid:layout_width="match_parent"\n
+            \t\tandroid:layout_height="match_parent">\n
+            \t<com.scwang.smartrefresh.header.ClassicsHeader\n
+                \t\tandroid:layout_width="match_parent"\n
+                \t\tandroid:layout_height="wrap_content"/>\n
+            \t<TextView\n
+                \t\tandroid:layout_width="match_parent"\n
+                \t\tandroid:layout_height="match_parent"/>\n
+            \t<com.scwang.smartrefresh.footer.ClassicsFooter\n
+                \t\tandroid:layout_width="match_parent"\n
+                \t\tandroid:layout_height="wrap_content"/>\n
+        </com.scwang.smartrefresh.SmartRefreshLayout>\n
+    ]]></string>
+
+
+    <!--main-->
+    <string name="search_text">发现更多干货</string>
+    <string name="home">首页</string>
+    <string name="system">知识体系</string>
+    <string name="wx">公众号</string>
+    <string name="project">项目</string>
+    <string name="person">我的</string>
+
+
+    //search
+    <string name="search">搜索</string>
+    <string name="share_edit">shareEdit</string>
+    <string name="share_image">shareImage</string>
+    <string name="search_hot">热搜</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_first_write">请输入关键字@_@!</string>
+    <string name="search_clear">清空</string>
+    <string name="search_history_empty">快来搜索干货吧@_@!</string>
+    <string name="search_empty">暂无数据，换个关键字查询吧@_@!</string>
+
+
+    //error
+    <string name="error_unknown">未知错误</string>
+    <string name="error_network">当前网络不可用，请检查网络设置</string>
+    <string name="error_timeout">连接超时，请重试</string>
+    <string name="error_http">网络错误</string>r
+    <string name="error_parse">解析错误</string>
+    <string name="error_view_network">网络不给力</string>
+    <string name="error_view_retry">重试</string>
+
+
+</resources>
